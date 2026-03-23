@@ -19,3 +19,9 @@ wykresy / wizualizacje:
 - liczba sprzedanych mieszkań vs stopy procentowe, ceny mieszkań vs stopy procentowe, cena vs liczba sprzedanych mieszkań, cena za metr vs liczba sprzedanych mieszkań, ...
 - średnia cena za metr przy danym metrażu (w jakichś widełkach)
 - mapa: porównanie metrażu / ceny / ceny za m^2 per lokalizacja (w danej dzielnicy / gminie / mieście / województwie)
+
+
+TO DO NA NASTĘPNY TYDZIEŃ: 
+- hania -> zescrapowanie danych do końca z deweloperuch.pl, dopasowanie adresow do gmin i powiatow
+- miłosz -> scraping stronek ze stopami i inflacją; zapytania do API banku danych lokalnych
+- ada -> research eurostatu i danych które nam mogą poszerzyć dane, dodatkowe dimension do dorzucenia etc; LaTeX z danymi które chcą do KM1
