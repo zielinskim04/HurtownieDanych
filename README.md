@@ -11,6 +11,7 @@ dane które chcemy zawrzeć:
 - wysokość stóp procentowych (z NBP)
 - wskaźnik inflacji
 - stopa bezrobocia
+- ceny ofertowe vs transakcyjne - różnica między ich średnimi vs ceny czy inne rzeczy tego typu
 - if not enough other ideas: jakieś metryki jak wygląda aktualna sytuacja mieszkaniowa (ilość lokali na 1000 mieszkańców / średni metraż na mieszkańca / ...), i jak to się ma do cen mieszkań
 
 wykresy / wizualizacje: 
