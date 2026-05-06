@@ -25,3 +25,7 @@ TO DO NA NASTĘPNY TYDZIEŃ:
 - hania -> zescrapowanie danych do końca z deweloperuch.pl, dopasowanie adresow do gmin i powiatow
 - miłosz -> scraping stronek ze stopami i inflacją; zapytania do API banku danych lokalnych
 - ada -> research eurostatu i danych które nam mogą poszerzyć dane, dodatkowe dimension do dorzucenia etc; LaTeX z danymi które chcą do KM1
+
+PYTANIA: 
+- jak oni widzą tę częstotliwość updateowania - czy mamy napisać system który sam cyklicznie ściąga dane z tych stronek? jeśli tak to czy mamy ściągać full csv za każdym razem czy jakiś diff czy jak? a co jeśli scrapeujemy strony?
+- czy ten model hurtowni ze wzystkimi tabelkami etc jest ok? gdzie sensownie wrzucić wskaźniki typu inflacja (miesięczne dla całego kraju), czy jako osobne dimension to jest ok? 
