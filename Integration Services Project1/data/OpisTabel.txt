@@ -1,0 +1,44 @@
+Tabele z BDL
+1. Bezrobocie  	P1944 Rocznie Gminy
+Plik: bezrobocie.csv
+Kolumny: Kod; Nazwa; ogółem 
+
+Dane od: 2005
+Dane do: 2025
+
+Odświeżanie: 
+
+2. Wynagrodzenia  P2497 Rocznie Powiaty
+Plik: wynagrodzenie.csv
+Kolumny: ogółem; przeciętne miesięczne wynagrodzenia brutto w relacji do średniej krajowej (Polska=100)
+
+Dane od: 2005
+Dane do: 2024
+
+Uwagi: Brak
+
+3. Ludność i gęstość P2425 Rocznie Gminy
+Plik: ludnosc.csv
+Kolumny: Kod; Nazwa; ludność na 1 km2;
+zmiana liczby ludności na 1000 mieszkańców; wskaźnik urbanizacji
+
+Dane od: 2005
+Dane do: 2024
+
+Uwagi: Trzeba patrzeć na połączenie gmin/powiatów, dużo dziur w gęstość zaludnienia powierzchni zabudowanej i zurbanizowanej (osoby/km2), dużo dziur w wskaźnik urbanizacji
+
+4. Inflacja   P2955 Rocznie Województwa
+Plik: inflacja.csv
+Kolumny: Kod; Nazwa; ogółem
+Częstotliwość aktualizacji: coroczna - marzec
+
+Dane od: 2005
+Dane do: 2025
+
+Uwagi: Brak
+
+Inne tabele
+
+5. Inflacja ze strony: https://www.firma.egospodarka.pl/niezbednik-firmowy/podstawowe-stopy-procentowe-nbp
+Scraping
+Plik: stopy_nbp_historia.csv
