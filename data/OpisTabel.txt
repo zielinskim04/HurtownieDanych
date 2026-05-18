@@ -19,7 +19,7 @@ Uwagi: Brak
 
 3. Ludność i gęstość P2425 Rocznie Gminy
 Plik: ludnosc.csv
-Kolumny: Kod; Nazwa; ludność na 1 km2;
+Kolumny: Kod; Nazwa; ludność na 1 km2; lilczba ludności;
 zmiana liczby ludności na 1000 mieszkańców; wskaźnik urbanizacji
 
 Dane od: 2005
@@ -39,6 +39,6 @@ Uwagi: Brak
 
 Inne tabele
 
-5. Inflacja ze strony: https://www.firma.egospodarka.pl/niezbednik-firmowy/podstawowe-stopy-procentowe-nbp
+5. Stopy procentowe ze strony: https://www.firma.egospodarka.pl/niezbednik-firmowy/podstawowe-stopy-procentowe-nbp
 Scraping
 Plik: stopy_nbp_historia.csv
