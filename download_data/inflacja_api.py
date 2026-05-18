@@ -1,3 +1,4 @@
+import os
 import requests
 import pandas as pd
 
@@ -60,9 +61,14 @@ def pobierz_inflacje_bdl():
     # według 'Kod' i 'Rok' Polska będzie naturalnie na samej górze pliku.
     df = df.sort_values(by=['Kod', 'Rok'])
     
-    # Zapis do CSV
+    # Zapis do CSV - BEZPIECZNA ŚCIEŻKA
     nazwa_pliku = 'data/inflacja.csv'
+    
+    # Tworzy folder 'data', jeśli nie istnieje
+    os.makedirs(os.path.dirname(nazwa_pliku), exist_ok=True) 
+    
     df.to_csv(nazwa_pliku, index=False, sep=';', encoding='utf-8-sig')
+    print(f"Zapisano dane do pliku: {nazwa_pliku}")
     
 if __name__ == "__main__":
     pobierz_inflacje_bdl()
